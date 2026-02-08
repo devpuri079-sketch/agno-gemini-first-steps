@@ -1,0 +1,38 @@
+# --- Python 基本 ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# 仮想環境
+venv/
+.env/
+.venv/
+.venv_ai/
+
+# パッケージ管理
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Chainlit ---
+.chainlit/
+chainlit.log
+chainlit.*
+
+# --- VSCode などのエディタ ---
+.vscode/
+.idea/
+
+# --- OS 依存 ---
+.DS_Store
+Thumbs.db
+
+# --- dotenv ---
+.env.local
+.env.*.local
