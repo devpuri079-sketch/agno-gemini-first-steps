@@ -34,5 +34,10 @@ chainlit.*
 Thumbs.db
 
 # --- dotenv ---
+.env
 .env.local
 .env.*.local
+
+# --- その他生成物 ---
+*.csv
+*.pdf
